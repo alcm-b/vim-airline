@@ -68,10 +68,9 @@ let g:airline#themes#dark#palette.visual_modified = {
       \ 'airline_c': [ '#ffffff' , '#5f005f' , 255     , 53      , ''     ] ,
       \ }
 
-
-let s:IA1 = [ '#4e4e4e' , '#1c1c1c' , 239 , 234 , '' ]
-let s:IA2 = [ '#4e4e4e' , '#262626' , 239 , 235 , '' ]
-let s:IA3 = [ '#4e4e4e' , '#303030' , 239 , 236 , '' ]
+let s:IA1 = [ '#4e4e4e' , '#1c1c1c' , 239 , 102 , '' ]
+let s:IA2 = [ '#ffffff' , '#444444' , 255 , 238 , '' ]
+let s:IA3 = [ '#9cffd3' , '#202020' , 102 , 234 , '' ]
 let g:airline#themes#dark#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
 let g:airline#themes#dark#palette.inactive_modified = {
       \ 'airline_c': [ '#875faf' , '' , 97 , '' , '' ] ,
